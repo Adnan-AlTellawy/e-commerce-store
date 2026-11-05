@@ -1,69 +1,48 @@
-# QuickCart - A simple eCommerce website
+# QuickCart
 
-QuickCart is an open-source **Next.js eCommerce frontend** project.  
-It provides a modern, fast and customizable shopping UI.  
-This repo is **frontend only** – contributors can improve the design, add new pages, animations and more.
+A tech e-commerce storefront with a promotional slider, product catalog, product detail pages, shopping cart, and a seller portal.
 
----
+Live demo: https://store-app-adnan.netlify.app
+
+## Screenshots
+
+![Home page](./screenshots/home.png)
+![Shop page](./screenshots/shop.png)
+![Product page](./screenshots/product.png)
 
 ## Features
 
--   Built with **Next.js + Tailwind CSS**
--   Responsive design
--   Reusable components
--   Customizable layouts and colors
--   Open for contributions (UI/UX, animations, themes, layouts etc.)
+- Animated promotional slider and best-sellers section
+- Shop page listing all products
+- Product detail pages
+- Shopping cart managed with the Context API
+- Login page and Seller Portal covering both buyer and seller journeys
+- Fully responsive layout with a mobile navigation menu
 
----
+## Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- React Context API for cart state
+- Deployed on [Netlify](https://www.netlify.com/)
 
 ## Getting Started
 
-1. Clone the repo
+git clone https://github.com/Adnan-AlTellawy/e-commerce-store
+cd quickcart-store
+npm install
+npm run dev
+Then open http://localhost:3000 in your browser.
 
-    ```bash
-    git clone https://github.com/GreatStackDev/QuickCart.git
-    cd QuickCart
-    ```
+## Notes and Future Improvements
 
-2. Install dependencies
+This project currently uses static product data and front-end only login and seller screens. Planned next steps:
 
-    ```bash
-    npm install
-    ```
+- Connect to a backend API for real products and orders
+- Add real authentication
+- Persist the cart between sessions
 
-3. Run locally
+## Author
 
-    ```bash
-    npm run dev
-    ```
-
----
-
-## Contributing
-
-We welcome all kinds of contributions! You can:
-
-- Create new pages
-- Improve layouts
-- Add animations and transitions
-- Enhance responsiveness
-- Refactor components
-- Suggest new UI/UX ideas
-- Add themes or color variations
-- Introduce accessibility improvements
-- Add filtering/search features
-- Improve documentation
-
-Check out [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
-
----
-
-## License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 🌟 Contributors
-
-Thanks to everyone who contributes to **QuickCart**!
+Adnan Jahed Al-Tellawy — Front-End Developer
+[GitHub](https://github.com/Adnan-AlTellawy) · [LinkedIn](https://www.linkedin.com/in/adnan-altellawy-497500448) · [Portfolio](https://adnan-altellawy.netlify.app) · adnanaltellawy@gmail.com
